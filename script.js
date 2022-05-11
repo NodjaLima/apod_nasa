@@ -14,7 +14,10 @@ $('#submit').on('click', function(evento) {
         if (result.media_type == "image") {
           $("#imagem").html(`<img id='img' src="${result.url}"/>`)
         
-        } else {
+        } else if(result.media_type == "other"){
+          $('#imagem').html(`<img id='img' src="./error.webp"/>`)
+          
+        }else {
           $('#imagem').html(`<iframe width="426" height="240" src="${result.url}"/>`)
         }
       $('#text').html(`Date:`)          
