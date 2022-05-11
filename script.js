@@ -25,7 +25,7 @@ $('#submit').on('click', function(evento) {
 
     error: function () {
       $('#text').html(`Date:`) 
-      $("#div2").html('O banco de imagens que usamos nessa aplicação começa em 20/06/1995 e termina na data de hoje. Verifique se a data inserida está dentro dessa linha de tempo e tente novamente')
+      $("#div2").html('O banco de imagens que usamos nessa aplicação começa em 20/06/1995 e termina na data de hoje. Verifique se a data inserida está dentro dessa linha de tempo e tente novamente.')
       $('#imagem').html(`<img id='img' src="./fail.png"/>`)
     }
       })

@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .forms {
@@ -28,5 +29,16 @@ body {
 #img {
  max-width: 426px;
  max-height: 500px;
+  
+}
+
+
+@media (max-width: 700px) {
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   
 }
