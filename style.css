@@ -5,11 +5,16 @@ body {
   margin: 20px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
-  
+  background-image: url(nebulosaverde.webp);
+  background-size: cover;
 }
 
 p {
   font-size: 40px;
+  background-color: rgba(255, 255, 255, 0.39);
+  padding: 15px;
+  border-radius: 5px;
+
 }
 
 .forms {
@@ -24,6 +29,7 @@ p {
   gap: 30px;
   margin: 30px;
 }
+  
 
 .texto {
   display: flex;
@@ -31,6 +37,9 @@ p {
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
+  background-color: rgba(255, 255, 255, 0.39);
+  padding: 20px;
+  border-radius: 5px;
 }
 
 #img {
@@ -39,6 +48,12 @@ p {
   
 }
 
+footer {
+  background-color: rgba(255, 255, 255, 0.39);
+  padding: 10px;
+  border-radius: 5px;
+
+}
 
 @media (max-width: 700px) {
   .conteudo{
@@ -47,5 +62,10 @@ p {
     align-items: center;
   }
 
+  .video {
+    width: auto;
+    height: auto;
+  }
   
 }
+

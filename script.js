@@ -19,7 +19,7 @@ $('#submit').on('click', function(evento) {
           $("#titulo").html(`${result.title}`);
           
         }else {
-          $('#imagem').html(`<iframe width="426" height="240" src="${result.url}"/>`)
+          $('#imagem').html(`<iframe class="video" width="426" height="240" src="${result.url}"/>`)
           $("#titulo").html(`${result.title}`);
         }
 
